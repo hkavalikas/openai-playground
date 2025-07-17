@@ -5,7 +5,7 @@ export class SampleService {
 
   async firstMethod() {
     const response = await this.client.responses.create({
-      model: 'gpt-4.1',
+      model: 'gpt-4.1-nano',
       input: 'Write a one-sentence bedtime story about a unicorn.',
     });
 
